@@ -1,0 +1,48 @@
+/* Circle  */
+
+
+.circle__container {
+    border: 1px solid red;
+    height: 500px;
+    max-width: 700px;
+    margin-top: auto;
+}
+
+
+.circle__wrapper {
+    width: 100%;
+    border: 2px solid green;
+    height: 60px;
+    margin-top: auto;    
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    background-color: #6C63FF;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10%;
+    right: 30%;
+    box-shadow: 0 0 4px 0 #6C63FF;
+    cursor: pointer;
+}
+
+.circle__item {
+    width: 5px;
+    height: 34px;
+    border-radius: 3px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle__item:nth-child(1) {
+    transform: translate(-50%, -50%) rotate(90deg) ;
+}
+
+.circle:hover {
+    background-color: #534CC2;
+}

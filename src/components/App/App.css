@@ -1,0 +1,67 @@
+.app {
+    padding: 25px 0;
+    min-height: 100vh;  
+    transition: ease .3s;
+}
+
+
+
+/* /// Night mode  */
+
+
+.app_night-mode {
+    background-color: #252525;
+    transition: ease .3s;
+}
+
+.app_night-mode .header__title {
+    color: #fff;
+}
+
+.app_night-mode .main__item-note {
+    color: #fff;
+}
+
+.app_night-mode .main__item-note.main__item-note_done {
+    color: #968e8e;
+}
+
+.app_night-mode .header__menu-input {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.app_night-mode .header__menu-input::placeholder {
+    color: #666666;
+}
+
+.app_night-mode .header__menu-input {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+
+.app_night-mode .form__wrapper {
+    background-color: #252525;
+}
+
+.app_night-mode .form___input::placeholder {
+    color: #666666;
+}
+
+.app_night-mode .form___input {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.app_night-mode .form__title {
+    color: #fff;
+}
+
+
+.app_night-mode .header__menu-search path {
+    fill: #fff;
+}

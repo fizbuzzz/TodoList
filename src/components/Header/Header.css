@@ -1,0 +1,117 @@
+/* Header */
+
+.header__title {
+    text-align: center;
+    font-family: 'Kanit-Regular';
+    font-size: 36px;
+    margin-bottom: 18px;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 38px;
+    gap: 16px;
+}
+
+
+
+
+.header__menu-switch {
+    background-color: #5850DD;
+    width: 42px;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.header__list {
+    height: inherit;
+}
+
+
+.header__list-selected__square {
+    width: 8px;
+    height: 8px;
+    border: 2px solid #fff;
+    transform: rotate(45deg) translateY(-2px) translateX(-2px);
+    border-top: none;
+    border-left: none;
+    transition: .1s;
+}
+
+.header__list-selected__square.header__list-selected__square_active {
+    transition:  .1s;
+    border-bottom: none;
+    border-right: none;
+    border-top: 2px solid #fff;;
+    border-left: 2px solid #fff;;
+    transform: rotate(45deg) translateY(0px) translateX(0px);
+}
+
+.header__list-selected {
+    padding: 10px;
+    height: inherit;
+    width: 120px;
+    background-color: #5850DD;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid #5850DD;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.header__list-selected:hover {
+    background-color: #6C63FF;
+}
+
+.header__list-selected__current {
+    font-family: 'Kanit-Medium';
+    /* font-size: 18px; */
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.header__list-items {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #5850DD;
+    border: 2px solid #6C63FF;
+    width: inherit;
+    justify-content: space-between;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: ease .3s;
+}
+
+.header__list-items_active {
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity ease .7s, height .1s;
+}
+
+.header__list-item {
+    width: inherit;
+    padding: 4px;
+    font-family: 'Kanit-Regular';
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.header__list-item:hover {
+    background: rgba(108, 99, 255, 0.2);
+
+}

@@ -1,0 +1,30 @@
+.header__menu-wrapper {
+    width: 500px;
+    height: inherit;
+    display: flex;
+}
+
+.header__menu-input {
+    width: 100%;
+    padding: 0 10px;
+    font-family: 'Inter-Medium';
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: #6C63FF;
+    color: #6C63FF;
+    border-width: 1px;
+}
+
+
+
+.header__menu-input::placeholder {
+    color: #C3C1E5;
+  }
+
+
+  
+.header__menu-search {
+    transform: translate(-32px, 8px);
+    width: 21px;
+    height: 21px;
+}
